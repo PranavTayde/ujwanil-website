@@ -27,7 +27,7 @@ export default function Footer() {
             <li className="flex gap-3"><Phone size={16} /> +91 7709548834</li>
             <li className="flex gap-3"><Mail size={16} /> contact@ujwanil.com</li>
             <li className="flex items-start gap-3">
-              <MapPin size={32} className="shrink-0" /> 
+              <MapPin size={16} className="shrink-0" /> 
               Ujwanil, Lane No. 9, Sukhsagar Nagar Part-2, Katraj, Pune – 411046
             </li>
           </ul>
@@ -37,12 +37,13 @@ export default function Footer() {
           <h4 className="font-bold mb-6 text-brand-gold">Location Map</h4>
           <div className="w-full h-48 bg-white/5 rounded-2xl overflow-hidden border border-white/10 grayscale hover:grayscale-0 transition-all">
             {/* Replace the URL with your actual Google Maps Embed link */}
-            <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.444!2d73.868!3d18.45!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTjCsDI3JzAwLjAiTiA3M8KwNTInMDQuOCJF!5e0!3m2!1sen!2sin!4v1620000000000" 
-              className="w-full h-full border-0" 
-              allowFullScreen="" 
-              loading="lazy"
-            ></iframe>
+           <iframe 
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3784.5878195695186!2d73.86995851070938!3d18.457014571040258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2ebba6cc02607%3A0x3f9f1ebcb86206e7!2sUjwanil%20Girls%20PG!5e0!3m2!1sen!2sus!4v1778440574574!5m2!1sen!2sus" 
+  className="w-full h-full border-0 rounded-xl" 
+  allowFullScreen="" 
+  loading="lazy" 
+  referrerPolicy="no-referrer-when-downgrade"
+></iframe>
           </div>
         </div>
       </div>

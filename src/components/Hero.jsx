@@ -17,8 +17,9 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           className="text-brand-gold font-semibold tracking-[0.3em] uppercase mb-4 block"
         >
-          Luxury Living for Students
+          Accommodation for Girls
         </motion.span>
+        
         <motion.h1 
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
@@ -27,6 +28,7 @@ export default function Hero() {
         >
           UJWANIL <span className="text-brand-gold">RESIDENCY</span>
         </motion.h1>
+        
         <motion.p 
           initial={{ y: 30, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
@@ -36,18 +38,28 @@ export default function Hero() {
           Safe & Comfortable Accommodation in Sukhsagar Nagar, Katraj. 
           The perfect environment for your academic success.
         </motion.p>
+        
         <motion.div 
           initial={{ scale: 0.9, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ delay: 0.6 }}
           className="flex flex-col md:flex-row gap-4 justify-center"
         >
-          <button className="bg-brand-gold text-brand-blue px-10 py-4 rounded-xl font-bold hover:gold-shadow transition-all">
+          {/* Button 1: Book a Visit (Links to your contact section/number) */}
+          <a 
+            href="tel:+917709548834" 
+            className="bg-brand-gold text-brand-blue px-10 py-4 rounded-xl font-bold hover:gold-shadow transition-all inline-block"
+          >
             BOOK A VISIT
-          </button>
-          <button className="glass text-white px-10 py-4 rounded-xl font-bold hover:bg-white/20 transition-all">
+          </a>
+
+          {/* Button 2: View Gallery (Scrolls to the Gallery section) */}
+          <a 
+            href="#gallery" 
+            className="glass text-white px-10 py-4 rounded-xl font-bold hover:bg-white/20 transition-all inline-block"
+          >
             VIEW GALLERY
-          </button>
+          </a>
         </motion.div>
       </div>
     </section>
