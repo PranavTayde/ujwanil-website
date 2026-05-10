@@ -58,7 +58,7 @@ export default function Home() {
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 rounded-full bg-brand-gold" />
-                  <span className="font-semibold text-brand-blue">1.5 KM from Colleges</span>
+                  <span className="font-semibold text-brand-blue">1.5 KM from VIT and VIIT College</span>
                 </div>
               </div>
 

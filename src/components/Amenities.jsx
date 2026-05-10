@@ -16,7 +16,7 @@ const facilities = [
   { icon: <ShieldCheck />, text: "CCTV security" },
   { icon: <BookOpen />, text: "Clean, calm and safe environment for study" },
   { icon: <Wifi />, text: "Wifi Facility" },
-  { icon: <MapPin />, text: "Located nearby college (1.5 KM)" },
+  { icon: <MapPin />, text: "Located near VIT and VIIT college (1.5 KM)" }
 ];
 
 export default function Amenities() {
